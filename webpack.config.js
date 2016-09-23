@@ -39,6 +39,7 @@ var config = {
     //插件
     plugins:[
         new webpack.optimize.CommonsChunkPlugin('vendors', 'js/vendors.js'),//抽取公用的库或者方法
+        new webpack.ProvidePlugin({ $: "jquery",  jQuery: "jquery",  "window.jQuery": "jquery"  }),
         new ExtractTextPlugin("css/[name].css"),//生成的css样式文件
         new webpack.DefinePlugin({
             'process.env':{
