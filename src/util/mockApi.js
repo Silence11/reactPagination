@@ -6,7 +6,7 @@ import Mock from 'mockjs';
 module.exports = {
     getIndexList(){
         var template ={
-            "array|1-10":[
+            "array|1-20":[
                 {
                     'scoreChinese|+1':[
                         '70'
