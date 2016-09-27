@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Silence11/react-router-webpack.git"
+    "url": "git+https://github.com/Silence11/reactPagination.git"
   },
   "keywords": [
     "webpack",
@@ -18,9 +18,9 @@
   "author": "xiajing",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Silence11/react-router-webpack/issues"
+    "url": "https://github.com/Silence11/reactPagination/issues"
   },
-  "homepage": "https://github.com/Silence11/react-router-webpack#readme",
+  "homepage": "https://github.com/Silence11/reactPagination#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.10.1",
