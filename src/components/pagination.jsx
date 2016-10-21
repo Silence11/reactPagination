@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import PageComponent from './pageComponent.jsx';
 import Mock from 'mockjs';
 import MockApi from '../util/mockApi.js';
+console.info('React:', React);    //这里打印出undefined
 class Pagination extends  Component{
     constructor(props){
         super(props);
