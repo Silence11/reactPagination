@@ -48,7 +48,7 @@ var config = {
         }),
         //将html打包压缩
         new HtmlWebpackPlugin({
-            filename:'/view/pagination.html',//生成的html存放路径，相对于 path
+            filename:'view/pagination.html',//生成的html存放路径，相对于 path
             template:'./src/pagination.html', //html模板路径
             chunks:['vendors','pagination'],//区分你想要加载的js，名字要跟entry入口定义的保存一直
             inject:true, //允许插件修改哪些内容，包括head与body
